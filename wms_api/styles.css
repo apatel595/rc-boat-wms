@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sensor-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.temperature-box {
+    border-top: 5px solid #ff5733; /* Red/Orange */
+}
+
+.tds-box {
+    border-top: 5px solid #33c3ff; /* Blue */
+}
+
+.turbidity-box {
+    border-top: 5px solid #33ff57; /* Green */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
